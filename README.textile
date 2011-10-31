@@ -8,7 +8,7 @@ h2. Step 2: urls.py
 
 Add this to your root @urls.py@ file:
 
-<code>url(r"^", include("django_su.urls")),</code>
+<code>url(r"^su/", include("django_su.urls")),</code>
 
 And that should be it!
 
